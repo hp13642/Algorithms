@@ -24,6 +24,7 @@ int main()
 }
 
 // Selection Sort logic
+//Maximum element put at end
 void Selection_Sort(int a[],int n){
 	int i,j,m,temp;
 	for(i=0;i<n;i++){
@@ -40,6 +41,7 @@ void Selection_Sort(int a[],int n){
 
 
 //Hackerearth code of selection sorting
+//Minimum element put at start
 void selection_sort (int A[ ], int n) {
         // temporary variable to store the position of minimum element
 
